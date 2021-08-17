@@ -52,9 +52,29 @@ body {
   object-fit: contain;
   margin-top: 275px;
   width: 100px;
-  height: 150px;
-  object-position: top left;
-  
+  height: 165px;
+  object-position: top left; 
+}
+.speech-bubble{
+  width: 120px;
+  height: 80px;
+  background: blue;
+  position: absolute;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.speech-bubble:before{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid blue;
+  border-bottom: 13px solid transparent;
+  margin: 13px 0 0 --25px;
 }
 .case-container {
   margin: 275px;
