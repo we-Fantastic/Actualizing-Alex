@@ -48,8 +48,16 @@ body {
 .menu-btn_burger::after {
   transform: translateY(16px);
 }
+#alex-profile {
+  object-fit: contain;
+  margin-top: 275px;
+  width: 100px;
+  height: 150px;
+  object-position: top left;
+  
+}
 .case-container {
-  margin: 100px;
+  margin: 275px;
   display: flex;
   justify-content: center;
   align-items: center;
