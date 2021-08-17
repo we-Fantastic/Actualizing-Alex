@@ -13,13 +13,15 @@ body {
 .menu-btn {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
   width: 80px;
   height: 80px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   /* border: 3px solid #fff; */
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .menu-btn_burger {
   width: 50px;
@@ -47,6 +49,7 @@ body {
   transform: translateY(16px);
 }
 .case-container {
+  margin: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
