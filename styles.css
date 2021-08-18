@@ -1,95 +1,69 @@
-<<<<<<< HEAD
-=======
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100v;
-}
-nav {
-  justify-content: flex-end;
-}
-
-/* .menu-btn_burger {
-  width: 50px;
-  height: 6px;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-  transition: all 0.5s ease-in-out; */
-/* }
-.menu-btn_burger::before,
-.menu-btn_burger::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 6px;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-  transition: all 0.5s ease-in-out;
-} */
-/* .menu-btn_burger::before {
-  transform: translateY(-16px);
-}
-.menu-btn_burger::after {
-  transform: translateY(16px);
-} */
-.case-container {
-  color: red;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
   background: whitesmoke;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+}
+nav {
+  justify-content: flex-end;
+}
+.case-container {
+  color: red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .menu-btn {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-  /* border: 3px solid #fff; */
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	/* border: 3px solid #fff; */
 }
 .menu-btn_burger {
-  width: 50px;
-  height: 6px;
-  background: #000;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-  transition: all 0.5s ease-in-out;
+	width: 50px;
+	height: 6px;
+	background: #000;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+	transition: all 0.5s ease-in-out;
 }
 .menu-btn_burger::before,
 .menu-btn_burger::after {
-  content: '';
+	content: '';
 
-  width: 50px;
-  height: 6px;
-  background: #000;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-  transition: all 0.5s ease-in-out;
+	width: 50px;
+	height: 6px;
+	background: #000;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+	transition: all 0.5s ease-in-out;
 }
 .menu-btn_burger::before {
-  transform: translateY(-16px);
+	transform: translateY(-16px);
 }
 .menu-btn_burger::after {
-  transform: translateY(16px);
+	transform: translateY(16px);
 }
-/* alex-profile img */
+#alex-profile {
+	object-fit: contain;
+	margin-top: 275px;
+	width: 100px;
+	height: 150px;
+	object-position: top left;
+}
 .img-responsive {
+	margin: 0 auto;
+	display: block;
 	align-content: center;
-}  
+}
 .circular--portrait {
 	position: relative;
 	width: 285px;
@@ -118,66 +92,82 @@ body {
   border-color: rgb(212, 95, 26) transparent;
 }
 .case-container {
-	margin: 100px;
-	display: flex;
-	/* justify-content: center;
-	align-items: center; */
+	text-align: center;
+	vertical-align: center;
 	flex-direction: column;
-=======
-  height: 150px;
-  object-position: top left;
 }
-.case-container {
-  margin: 100px;
-  display: flex;
-  /* justify-content: center;
-    align-items: center; */
-  flex-direction: column;
->>>>>>> be65b77792764e442ede847fb978f4a73c95ec07
+#case1 {
+	border: 3px solid black;
+	width: 300px;
+	height: 150px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-right: 30px;
+	border-radius: 5px;
+	background-color: rgb(126, 120, 120);
+}
+#case2 {
+	border: 3px solid black;
+	width: 300px;
+	height: 150px;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-right: 30px;
+	border-radius: 5px;
+	background-color: rgb(126, 120, 120);
+}
+#case3 {
+	border: 3px solid black;
+	width: 300px;
+	height: 150px;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-right: 30px;
+	border-radius: 5px;
+	background-color: rgb(126, 120, 120);
 }
 
 .about-me {
-  display: flex;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 32px;
+	display: flex;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 32px;
 }
 
 #about-title {
-  display: flex;
-  color: black;
-  /* width: 181px;
+	display: flex;
+	color: black;
+	/* width: 181px;
     height: 27px; */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 21px;
-  /* or 57% */
-  text-align: center;
-  letter-spacing: 0.221686px;
-  justify-content: flex-end;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 21px;
+	/* or 57% */
+	text-align: center;
+	letter-spacing: 0.221686px;
+	justify-content: flex-end;
 }
 
 #about-p {
-  color: black;
-  /* width: 365px;
+	color: black;
+	/* width: 365px;
     height: 240px; */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-  /* or 133% */
-  display: flex;
-  align-items: center;
-  text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	/* or 133% */
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
 
 #about-rm-link {
-<<<<<<< HEAD
 	color: black;
 	font-family: Roboto;
 	font-style: normal;
@@ -185,55 +175,4 @@ body {
 	font-size: 24px;
 	line-height: 32px;
 	align-self: flex-end;
-=======
-  color: black;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-  align-self: flex-end;
-
->>>>>>> be65b77792764e442ede847fb978f4a73c95ec07
-  margin: 275px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-<<<<<<< HEAD
-=======
-
-  flex-basis: 100%;
-}
-#case1 {
-  border: 3px solid black;
-  width: 300px;
-  height: 150px;
-  margin-left: 30px;
-  margin-top: 10px;
-  margin-right: 30px;
-  border-radius: 5px;
-  background-color: rgb(126, 120, 120);
-}
-#case2 {
-  border: 3px solid black;
-  width: 300px;
-  height: 150px;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-right: 30px;
-  border-radius: 5px;
-  background-color: rgb(126, 120, 120);
-}
-#case3 {
-  border: 3px solid black;
-  width: 300px;
-  height: 150px;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-right: 30px;
-  border-radius: 5px;
-  background-color: rgb(126, 120, 120);
->>>>>>> be65b77792764e442ede847fb978f4a73c95ec07
 }
