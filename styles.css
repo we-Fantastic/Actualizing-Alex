@@ -91,6 +91,23 @@ body {
   object-fit: contain;
   margin-top: 275px;
   width: 100px;
+}
+.img-responsive {
+	margin: 0 auto;
+	display: block;
+}  
+.circular--portrait {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.circular--portrait img {
+	width: 100%;
+	height: auto;
+	align-content: center;
+}
 <<<<<<< HEAD
   height: 165px;
   object-position: top left; 
