@@ -111,7 +111,7 @@ body {
 .case-container {
 	text-align: center;
 	vertical-align: middle;
-	align-self: center;
+	justify-content: center;
 }
 #case1 {
 	border: 3px solid black;
