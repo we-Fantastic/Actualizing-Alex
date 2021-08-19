@@ -1,21 +1,37 @@
 body {
-  min-height: 100v;
-  background: whitesmoke;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+	background: whitesmoke;
+	width: 100vw;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	min-height: 100vh;
 }
+
 nav {
-  justify-content: flex-end;
+	justify-content: flex-end;
 }
+
 .case-container {
-  color: red;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	color: red;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+a {
+	color: black;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+}
+
 .menu-btn {
 	position: relative;
 	display: flex;
@@ -52,41 +68,25 @@ nav {
 .menu-btn_burger::after {
 	transform: translateY(16px);
 }
-/* #alex profile img */
-}
-.img-responsive {
-	margin: 0 auto;
-	display: block;
-	align-content: center;
-}
 .circular--portrait {
 	position: relative;
-	width: 285px;
-	height: 285px;
+	width: 200px;
+	height: 200px;
 	border-radius: 90%;
 	border: 30px;
 }
-.circular--portrait img {
-    width: 90%;
-	align-content: center;
-	border-radius: -50%;
-} 
-/* .speech-bubble{
-  margin-left: -20px;
-  width: 130px;
-  height: 80px;
-  background: rgb(212, 95, 26);
-  border-radius: 10px;
-  top: 22%;
-  position: absolute;
+.sun-ray {
+	position: relative;
+	height: 100px;
+	width: auto;
+	right: -100px;
 }
-.speech-bubble:before{
-  content: ' ';
-  right: -15px;
-  border: 40px solid;
-  border-color: transparent transparent rgb(212, 95, 26) transparent;
-  position: absolute;
-}  */
+.bigger-op {
+	opacity: 0.75;
+	border-radius: 150%;
+	width: 225px;
+	height: auto;
+}
 .case-container {
 	text-align: center;
 	vertical-align: center;
@@ -171,4 +171,49 @@ nav {
 	font-size: 24px;
 	line-height: 32px;
 	align-self: flex-end;
+}
+
+.contact {
+	color: black;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	/* display: flex; */
+	width: 100vw;
+	/* align-items: center;
+	justify-content: center;
+	flex-direction: column; */
+	padding: 32px;
+}
+
+.contact-title {
+	font-size: 36px;
+	line-height: 32px;
+	align-items: center;
+	text-align: center;
+}
+
+.contact-content {
+	text-align: left;
+	line-height: 5.0;
+}
+
+.contact-links {
+	display: block;
+}
+
+.contact-envelope-img {
+	width: 32px;
+}
+
+.contact-phone-img {
+	width: 32px;
+}
+
+.contact-website-img {
+	width: 64px;
+}
+
+.contact-download-img {
+	width: 32px;
 }
