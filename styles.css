@@ -12,6 +12,17 @@ body {
 	min-height: 100vh;
 }
 
+nav {
+	justify-content: flex-end;
+}
+
+.case-container {
+	color: red;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 a {
 	color: black;
 	font-family: Roboto;
@@ -57,51 +68,23 @@ a {
 .menu-btn_burger::after {
 	transform: translateY(16px);
 }
-#alex-profile {
-	object-fit: contain;
-	margin-top: 275px;
-	width: 100px;
-	height: 150px;
-	object-position: top left;
-}
 
 .img-responsive {
 	margin: 0 auto;
 	display: block;
+	align-content: center;
 }
 .circular--portrait {
 	position: relative;
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
+	width: 285px;
+	height: 285px;
 	border-radius: 50%;
-}
-.circular--portrait img {
-	width: 100%;
-	height: auto;
-	align-content: center;
+	border: double 30px rgb(214, 205, 79);
 }
 
-.speech-bubble {
-	width: 120px;
-	height: 80px;
-	background: blue;
-	position: absolute;
-	border-radius: 10px;
-	left: 50%;
-	top: 50%;
-	position: absolute;
-	transform: translate(-50%, -50%);
-}
-.speech-bubble:before {
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 13px solid transparent;
-	border-right: 26px solid blue;
-	border-bottom: 13px solid transparent;
-	margin: 13px 0 0 --25px;
+.circular--portrait img {
+	width: 90%;
+	align-content: center;
 }
 
 .case-container {
