@@ -1,12 +1,26 @@
 body {
 	background: whitesmoke;
 	width: 100vw;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	flex-direction: column;
 	min-height: 100vh;
 }
+
+a {
+	color: black;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+}
+
 .menu-btn {
 	position: relative;
 	display: flex;
@@ -174,4 +188,49 @@ body {
 	font-size: 24px;
 	line-height: 32px;
 	align-self: flex-end;
+}
+
+.contact {
+	color: black;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	/* display: flex; */
+	width: 100vw;
+	/* align-items: center;
+	justify-content: center;
+	flex-direction: column; */
+	padding: 32px;
+}
+
+.contact-title {
+	font-size: 36px;
+	line-height: 32px;
+	align-items: center;
+	text-align: center;
+}
+
+.contact-content {
+	text-align: left;
+	line-height: 5.0;
+}
+
+.contact-links {
+	display: block;
+}
+
+.contact-envelope-img {
+	width: 32px;
+}
+
+.contact-phone-img {
+	width: 32px;
+}
+
+.contact-website-img {
+	width: 64px;
+}
+
+.contact-download-img {
+	width: 32px;
 }
