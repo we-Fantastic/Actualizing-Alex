@@ -66,6 +66,9 @@ img {
   justify-content: center;
   align-items: center;
 }
+.c1 {
+  cursor: pointer;
+}
 
 #alex-profile {
   object-fit: contain;
