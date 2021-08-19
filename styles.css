@@ -52,12 +52,7 @@ nav {
 .menu-btn_burger::after {
 	transform: translateY(16px);
 }
-#alex-profile {
-	object-fit: contain;
-	margin-top: 275px;
-	width: 100px;
-	height: 150px;
-	object-position: top left;
+/* #alex profile img */
 }
 .img-responsive {
 	margin: 0 auto;
@@ -68,29 +63,29 @@ nav {
 	position: relative;
 	width: 285px;
 	height: 285px;
-	overflow: hidden;
 	border-radius: 50%;
+	border: double 30px rgb(214, 205, 79);
 }
 .circular--portrait img {
     width: 90%;
 	align-content: center;
 } 
-.speech-bubble{
+/* .speech-bubble{
+  margin-left: -20px;
   width: 130px;
   height: 80px;
   background: rgb(212, 95, 26);
   border-radius: 10px;
-  left: 15%;
-  top: 30%;
+  top: 22%;
   position: absolute;
 }
 .speech-bubble:before{
   content: ' ';
-  position: absolute;
-  right: -8px;
+  right: -15px;
   border: 40px solid;
-  border-color: rgb(212, 95, 26) transparent;
-}
+  border-color: transparent transparent rgb(212, 95, 26) transparent;
+  position: absolute;
+}  */
 .case-container {
 	text-align: center;
 	vertical-align: center;
