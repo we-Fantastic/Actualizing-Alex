@@ -83,8 +83,6 @@ nav {
 .about-me {
 	display: flex;
 	width: 100vw;
-	align-items: center;
-	justify-content: center;
 	flex-direction: column;
 	padding: 32px;
 }
@@ -100,8 +98,18 @@ nav {
 	line-height: 21px;
 	/* or 57% */
 	text-align: center;
-	letter-spacing: 0.221686px;
-	justify-content: flex-end;
+	justify-content: center;
+}
+
+.about-box {
+	color: black;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	background: #c3f2ff;
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
 }
 
 #about-p {
@@ -120,13 +128,9 @@ nav {
 }
 
 #about-rm-link {
-	color: black;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 24px;
-	line-height: 32px;
-	align-self: flex-end;
+	/* text-align: right;
+
+	align-self: flex-end; */
 }
 .contact {
 	color: black;
@@ -149,8 +153,14 @@ nav {
 }
 
 .contact-content {
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 24px;
+	padding: 8px;
 	text-align: left;
-	line-height: 5;
+	line-height: 3.2;
+	background: #c3f2ff;
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
 }
 
 .contact-links {
@@ -159,6 +169,7 @@ nav {
 
 .contact-envelope-img {
 	width: 32px;
+	align-self: auto;
 }
 
 .contact-phone-img {
