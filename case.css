@@ -1,47 +1,70 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
 }
+
+.case-container {
+	/* display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; */
+	text-align: center;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 8px;
+}
+
+.case-title {
+	color: black;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 21px;
+	text-align: center;
+	justify-content: center;
+}
+
 .overview {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 476px;
-  height: 478px;
-  left: -35px;
-  top: 733px;
-  background: #506ad4;
-  border-radius: 46px;
-  flex-wrap: wrap;
-  text-align: center;
-  color: aliceblue;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 476px;
+	height: 478px;
+	left: -35px;
+	top: 733px;
+	background: #506ad4;
+	border-radius: 46px;
+	flex-wrap: wrap;
+	text-align: center;
+	color: aliceblue;
 }
 .aboutmetextbox {
-  position: absolute;
-  padding: 10px;
-  width: 378px;
-  height: 1749px;
-  left: 20px;
-  top: 541px;
-  text-align: center;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+	position: absolute;
+	padding: 10px;
+	width: 378px;
+	height: 1749px;
+	left: 20px;
+	top: 541px;
+	text-align: center;
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
 }
 .text-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 .abt-container {
-  flex-direction: column;
+	flex-direction: column;
 }
 
 .abtimg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: auto;
 }
