@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
 }
 .overview {
   flex-direction: column;
@@ -15,16 +16,32 @@ body {
   border-radius: 46px;
   flex-wrap: wrap;
   text-align: center;
+  color: aliceblue;
 }
 .aboutmetextbox {
   position: absolute;
+  padding: 10px;
   width: 378px;
   height: 1749px;
   left: 20px;
   top: 541px;
-  
+  text-align: center;
   filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.text-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .abt-container {
   flex-direction: column;
-  margin-top: ;
+}
+
+.abtimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: auto;
 }
