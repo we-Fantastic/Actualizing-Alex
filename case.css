@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overview {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 476px;
+  height: 478px;
+  left: -35px;
+  top: 733px;
+  background: #506ad4;
+  border-radius: 46px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.aboutmetextbox {
+  position: absolute;
+  width: 378px;
+  height: 1749px;
+  left: 20px;
+  top: 541px;
+  
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+.abt-container {
+  flex-direction: column;
+  margin-top: ;
+}
