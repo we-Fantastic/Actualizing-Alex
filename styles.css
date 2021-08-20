@@ -30,26 +30,37 @@ img {
 	align-items: center;
 }
 
-.greeting {
+/* .greeting {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 	text-align: left;
-	/* width: 346px;
-    height: 110px; */
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 12px;
-	line-height: 32px;
+	font-size: 24px;
 	color: black;
+	margin: 8px;
+	padding: 16px;
+} */
+
+.alex-title {
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: black;
+	margin: 8px;
+	padding: 16px;
 }
 
 .profile-pic {
-	height: 150px;
-	width: auto;
-	left: 142px;
-	top: 24px;
+	width: 300px;
+	height: auto;
+	margin: 32px;
+	padding: 16px;
+	align-self: right;
 }
 
 .about-me {
