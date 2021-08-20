@@ -56,21 +56,21 @@
 }
 
 .sun-ray {
-	position: absolute;
-	width: 700px;
+	position: relative;
+	width: 50%;
 	height: auto;
 	top: 0;
 	left: 0;
 }
 
 .bigger-op {
-	position: relative;
-	width: 700px;
+	position: absolute;
+	width: 50%;
 	height: auto;
 	opacity: 0.75;
 	border-radius: 500%;
-	top: auto;
-	left: -180px;
+	top: 0;
+	left: 0;
 }
 
 .circular--portrait {
@@ -200,7 +200,7 @@ img {
 	cursor: pointer;
   }
 
-  #alex-profile {
+  /* #alex-profile {
 	object-fit: contain;
 	margin-top: 275px;
 	width: 100px;
@@ -223,7 +223,7 @@ img {
   .circular--portrait img {
 	width: 90%;
 	align-content: center;
-  }
+  } */
 .case-container {
 	text-align: center;
 	vertical-align: center;
