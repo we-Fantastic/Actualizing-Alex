@@ -114,6 +114,8 @@ img {
 	font-weight: bold;
 	max-width: 100%;
 	padding: 16px;
+	align-self: center;
+	text-align: left;
 }
 
 .contact-title {
@@ -129,6 +131,7 @@ img {
 	font-size: 1.3rem;
 	padding: 8px;
 	text-align: left;
+
 	line-height: 4.5;
 	padding: 0.5rem;
 	background: #c3f2ff;
@@ -137,17 +140,24 @@ img {
 	max-width: 100vw;
 }
 
+.contact-content a {
+	text-decoration: none;
+	color: black;
+}
+
 .contact-links {
 	display: flex;
-	justify-content: space-between;
+
 	text-align: left;
 	font-size: 0.75rem;
 	max-width: 100%;
+	max-width: auto;
 	margin: 0.5rem 0;
 }
 
 .contact-img {
 	max-height: 100%;
+	max-width: auto;
 	margin: 0;
 }
 
