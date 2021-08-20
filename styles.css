@@ -25,6 +25,7 @@ nav {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	text-align: center;
 }
 
 img {
@@ -45,14 +46,14 @@ img {
 	height: 200px;
 	border-radius: 90%;
 	border: 30px;
-} */
+}  */
 .greeting {
 	display: flex;
-	position: absolute;
-    width: 346px;
-    height: 60px;
-    left: 38px;
-    top: 34px;
+	justify-content: space-between;
+	flex-direction: column;
+	text-align: left;
+    /* width: 346px;
+    height: 110px; */
 	font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -62,18 +63,13 @@ img {
 }
 
 .profile-pic {
-	position: absolute;
-    height: 200px;
+	height: 150px;
     width: auto;
     left: 142px;
     top: 24px;
 }
 
-.case-container {
-	text-align: center;
-	vertical-align: center;
-	flex-direction: column;
-}
+
 
 .about-me {
 	max-width: 100%;
