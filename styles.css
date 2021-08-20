@@ -26,6 +26,7 @@ nav {
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
+	width: 100%;
 }
 
 img {
@@ -40,13 +41,6 @@ img {
 	cursor: pointer;
 }
 
-/* .circular--portrait {
-	position: relative;
-	width: 200px;
-	height: 200px;
-	border-radius: 90%;
-	border: 30px;
-}  */
 .greeting {
 	display: flex;
 	justify-content: space-between;
@@ -59,7 +53,7 @@ img {
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 32px;
-	color: #365cd8;
+	color: black;
 }
 
 .profile-pic {
