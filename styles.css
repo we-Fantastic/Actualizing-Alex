@@ -39,32 +39,34 @@ img {
 	cursor: pointer;
 }
 
-#alex-profile {
-	object-fit: contain;
-	margin-top: 275px;
-	width: 100px;
-	height: 150px;
-	object-position: top left;
-}
-
-.circular--portrait {
+/* .circular--portrait {
 	position: relative;
 	width: 200px;
 	height: 200px;
 	border-radius: 90%;
 	border: 30px;
+} */
+.greeting {
+	display: flex;
+	position: absolute;
+    width: 346px;
+    height: 60px;
+    left: 38px;
+    top: 34px;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 32px;
+    color: #365cd8;  
 }
-.sun-ray {
-	position: relative;
-	height: 100px;
-	width: auto;
-	right: -100px;
-}
-.bigger-op {
-	opacity: 0.75;
-	border-radius: 150%;
-	width: 225px;
-	height: auto;
+
+.profile-pic {
+	position: absolute;
+    height: 200px;
+    width: auto;
+    left: 142px;
+    top: 24px;
 }
 
 .case-container {
