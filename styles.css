@@ -52,24 +52,22 @@ img {
 	justify-content: space-between;
 	flex-direction: column;
 	text-align: left;
-    /* width: 346px;
+	/* width: 346px;
     height: 110px; */
 	font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 32px;
-    color: #365cd8;  
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 32px;
+	color: #365cd8;
 }
 
 .profile-pic {
 	height: 150px;
-    width: auto;
-    left: 142px;
-    top: 24px;
+	width: auto;
+	left: 142px;
+	top: 24px;
 }
-
-
 
 .about-me {
 	max-width: 100%;
